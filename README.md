@@ -4,5 +4,6 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Blog Template sourcing content from markdown files
+  Gatsby Blog Template <br/>
+  <span style="font-size: 28px;">Sourcing content from markdown files</span>
 </h1>
