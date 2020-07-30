@@ -1,9 +1,55 @@
 .footer {
+  display: flex;
+  align-items: center;
   width: 100%;
   font-size: 3.6rem;
-  border-top: 1px solid $color-primary;
+  border-top: 1px solid $white-3;
   text-align: center;
   color: $color-primary;
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  height: 48px;
+
+  &__copyright {
+    display: inline-flex;
+    font-size: 12px;
+    padding: 3px;
+    color: $white-4;
+    margin: 0 26px;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__link {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    margin-right: 26px;
+
+    img {
+      width: 26px;
+      height: 26px;
+      opacity: 0.7;
+      transition: all 0.3s;
+    }
+
+    img:hover {
+      opacity: 1;
+    }
+  }
+
+  &__link:nth-of-type(2) {
+    width: 20px;
+    height: 20px;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
 }

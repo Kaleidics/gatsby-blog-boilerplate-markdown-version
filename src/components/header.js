@@ -14,8 +14,19 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1 className="heading-primary">This is the header</h1>
-      <p>
+      <div className="header__inner">
+        <div className="header__icon"></div>
+        <h1 className="header__heading"> Code UI</h1>
+      </div>
+      
+    </header>
+  )
+}
+
+export default Header
+
+
+{/* <p>
         <Link to="/about">About</Link>
       </p>
       <p>
@@ -23,9 +34,4 @@ const Header = () => {
       </p>
       <p>
         <Link to="/contact">Contact</Link>
-      </p>
-    </header>
-  )
-}
-
-export default Header
+      </p> */}
